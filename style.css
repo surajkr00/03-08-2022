@@ -1,0 +1,62 @@
+.myform{
+    width: 520px;
+    height: 445px;
+    margin: 150px auto;
+    background-image: -webkit-linear-gradient(top, #3b3b3b, #373737);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myform > div.cacc{
+    height: 77px;
+    line-height: 77px;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    border-bottom: 1px solid #1b1b1b;
+    text-shadow: 0px -3px 1px rgb(0,0,0,.5);
+    margin-bottom: 41px;
+}
+
+.myform > div >input{
+    display: block;
+    width: 91%;
+    height: 38px;
+    border-radius: 38px;
+    margin: 7px auto;
+    padding-left: 43px;
+    background-image: -webkit-linear-gradient(top, #b1b1b1, #d7d7d7);
+    border: none;
+    box-shadow: 0px 1px 1px 1px #5b595a;
+}
+
+.tnc{
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+}
+.box{
+    padding: 0px 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.tnc a{
+    color: greenyellow;
+}
+
+input[type="submit"]{
+    width: 250px;
+    height: 48px;
+    float: right;
+    border-radius: 50px;
+    border: none;
+    background-image: -webkit-linear-gradient(top, #909419, #717c00);
+    margin-right: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 0px -2px 1px rgba(0,0,0,0.5);
+    box-shadow: 0px -1px 0px #b4bd2c;
+}
